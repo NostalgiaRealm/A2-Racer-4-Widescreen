@@ -9,6 +9,8 @@ The fix has two parts:
 
 The game uses `spel.dat` as the executable module for the DirectDraw/Direct3D racing portion of the game, even though the file extension is `.dat`.
 
+<img width="2560" height="1440" alt="Screenshot_20260511_140825" src="https://github.com/user-attachments/assets/92287c97-9710-4b4e-a718-f0f4be975bc0" />
+
 ## Files
 
 ### `A2Racer4_spel_dat_16x9_common_resolutions`
