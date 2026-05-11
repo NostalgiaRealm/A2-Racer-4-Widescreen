@@ -273,3 +273,4 @@ Using only one part of the fix is not recommended.
 - The 3D fix is native and does not rely on stretching the image.
 - Back up your original files before installing.
 - This project does not include original game assets beyond modified configuration/executable patch files.
+- All testing was done on Fedora Linux 44 running the game through Wine using DXVK and DgVoodoo in tandem.
