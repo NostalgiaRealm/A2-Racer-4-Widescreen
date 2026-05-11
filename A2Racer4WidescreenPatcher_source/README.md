@@ -1,6 +1,6 @@
 # A2Racer4WidescreenPatcher source
 
-This ZIP contains the Go source code for `A2Racer4WidescreenPatcher.exe`.
+This folder contains the Go source code for `A2Racer4WidescreenPatcher.exe`.
 
 ## Build on Windows
 
