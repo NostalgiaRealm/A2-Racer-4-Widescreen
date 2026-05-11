@@ -15,10 +15,14 @@ go build -trimpath -ldflags="-s -w" -o A2Racer4WidescreenPatcher.exe A2Racer4Wid
 ```bash
 GOOS=windows GOARCH=amd64 CGO_ENABLED=0 go build -trimpath -ldflags="-s -w" -o A2Racer4WidescreenPatcher.exe A2Racer4WidescreenPatcher.go
 ```
+## Compile a native Linux version
+```bash
+GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o A2Racer4WidescreenPatcher A2Racer4WidescreenPatcher.go
+```
 
 ## Usage
 
-Place `A2Racer4WidescreenPatcher.exe` in the A2 Racer 4 game folder next to the original `spel.dat`, run it, and enter a resolution such as:
+Place `A2Racer4WidescreenPatcher` in the A2 Racer 4 game folder next to the original `spel.dat`, run it, and enter a resolution such as:
 
 ```text
 2560x1440
