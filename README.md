@@ -5,7 +5,7 @@ This package contains a native 16:9 widescreen fix for the PC version of **A2 Ra
 The fix has three parts:
 
 1. a patched `spel.dat` executable module that makes the 3D game render correctly at a 16:9 resolution without horizontal stretching;
-2. An automatic patcher called A2Racer4WidescreenPatcher.exe that runs from the games' folder.
+2. An automatic patcher called `A2Racer4WidescreenPatcher.exe` that runs from the games' folder.
 3. patched `overlay*.ini` files that reposition and unstretch the in-game HUD for a 16:9 layout.
 
 The game uses `spel.dat` as the executable module for the DirectDraw/Direct3D racing portion of the game, even though the file extension is `.dat`.
