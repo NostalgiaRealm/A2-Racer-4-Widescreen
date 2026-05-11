@@ -10,6 +10,8 @@ The fix has two parts:
 The game uses `spel.dat` as the executable module for the DirectDraw/Direct3D racing portion of the game, even though the file extension is `.dat`.
 
 <img width="2560" height="1440" alt="Screenshot_20260511_140825" src="https://github.com/user-attachments/assets/92287c97-9710-4b4e-a718-f0f4be975bc0" />
+<img width="2560" height="1440" alt="Screenshot_20260511_141545" src="https://github.com/user-attachments/assets/aaebefbc-542e-44e1-bb16-28fb7f4f5704" />
+<img width="2560" height="1440" alt="Screenshot_20260511_141559" src="https://github.com/user-attachments/assets/282e2b2b-f775-46b7-84f6-cd1c4b895779" />
 
 ## Files
 
