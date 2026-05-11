@@ -10,9 +10,12 @@ The fix has three parts:
 
 The game uses `spel.dat` as the executable module for the DirectDraw/Direct3D racing portion of the game, even though the file extension is `.dat`.
 
-<img width="2560" height="1440" alt="Screenshot_20260511_140825" src="https://github.com/user-attachments/assets/92287c97-9710-4b4e-a718-f0f4be975bc0" />
-<img width="2560" height="1440" alt="Screenshot_20260511_141545" src="https://github.com/user-attachments/assets/aaebefbc-542e-44e1-bb16-28fb7f4f5704" />
-<img width="2560" height="1440" alt="Screenshot_20260511_141559" src="https://github.com/user-attachments/assets/282e2b2b-f775-46b7-84f6-cd1c4b895779" />
+## Recommended setup
+
+The patched `spel.dat` fixes the 3D widescreen rendering, use the pre-patched .dat files or use the automatic patcher called A2Racer4WidescreenPatcher.exe executable
+The patched overlay `.ini` files fix the HUD layout.
+
+Using only one part of the fix is not recommended.
 
 ## Files
 
@@ -263,13 +266,6 @@ spel.dat
 4. Copy `overlay0.ini` through `overlay6.ini` into the game folder, replacing the originals.
 
 5. Start the racing part of the game normally.
-
-## Recommended setup
-
-The patched `spel.dat` fixes the 3D widescreen rendering.  
-The patched overlay `.ini` files fix the HUD layout.
-
-Using only one part of the fix is not recommended.
 
 ## Notes
 
