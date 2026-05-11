@@ -173,7 +173,7 @@ So the patch stores `1920` at an unused/safe data location and changes the `fidi
 
 ### Aspect denominator storage
 
-Candidate J writes the value `1920` here:
+The 2560×1440 patch writes the value `1920` here:
 
 ```text
 file offset: 0x1973D0
@@ -239,7 +239,7 @@ These represent a horizontal clip range from `-1.0` with a width of `2.0`, which
 -1.0 to +1.0
 ```
 
-Candidate J changes this to:
+The 2560×1440 patch changes this to:
 
 ```asm
 mov dword ptr [esi+0x14], 0xBFA00000   ; -1.25
@@ -736,7 +736,7 @@ Check the `fidiv` patch at `0x0C0E57`. It must divide by the 4:3 reference denom
 
 ### The 3D image is zoomed or cropped
 
-Check the horizontal clip constants. Candidate J uses:
+Check the horizontal clip constants. The 2560×1440 patch uses:
 
 ```text
 -1.25 and 2.5
